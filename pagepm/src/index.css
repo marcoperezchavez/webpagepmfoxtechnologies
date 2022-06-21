@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "Anton";
+  src: local("Anton"),
+    url("./assets/fonts/Anton/Anton-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Bebas";
+  src: local("Bebas"),
+    url("./assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Fascinate";
+  src: local("Fascinate"),
+    url("./assets/fonts/Fascinate_Inline/FascinateInline-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Permanent";
+  src: local("Permanent"),
+    url("./assets/fonts/Permanent_Marker/PermanentMarker-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+.navbar-container{
+  position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+.container-navBar{
+  max-width: 100%;
+}
