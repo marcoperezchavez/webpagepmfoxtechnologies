@@ -3,9 +3,8 @@
 import React from 'react'
 import Container from 'react-bootstrap/esm/Container';
 import {Row, Col, Button} from 'react-bootstrap';
-import imageFondo from '../Images/fondo4.jpg';
-import logo from '../Images/PMFOXTECHNOLOGIESLOGO.png';
-import './titleSection.css';
+import imageFondo from '../../Images/fondo4.jpg';
+import './titleSection.scss';
 
 
 const TitleSection = () => {
@@ -21,11 +20,14 @@ const TitleSection = () => {
 
       </div>
       <div className="texto-en-imagen-medio">
-        Aprende, innova, contruye mejora tus habilidades.
+      <span className='imaginar-text'>Aprende</span>, 
+      <span className='programar-text'> innova</span>, 
+      <span className='imaginar-text'> contruye</span> y 
+      <span className='programar-text'> mejora</span> tus habilidades.
 
       </div>
       <div className="texto-en-imagen-inferior">
-         PMFOX TECHNOLOGIES
+         <div className='titulo-colores'>PMFOX TECHNOLOGIES</div>
       </div>
       <div className="buttons-section">
       <Button variant="outline-danger" className='learn-more me-4'>Learn More</Button>

@@ -1,9 +1,11 @@
 
 import './App.css';
-import TitleSection  from './components/TitleSection.jsx';
-import MyNavBar from './NavBar';
-
+import React, { Component }  from 'react';
+import TitleSection  from './components/TitleSection/TitleSection.jsx';
+import MyNavBar from './components/NavBarSection/NavBar.jsx';
 function App() {
+
+
   return (
     <>
     <MyNavBar />

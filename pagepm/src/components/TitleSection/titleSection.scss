@@ -1,0 +1,208 @@
+.container-all {
+  position: absolute;
+  top: 90px;
+
+}
+
+.text-all-container {
+  top: 85px;
+  padding-left: 50px !important;
+  position: relative;
+  color: aliceblue;
+}
+
+.logo-container {
+  /* position: relative; */
+  /* text-align: center; */
+}
+
+.image-logo {
+  width: 100%;
+  height: 400px;
+}
+
+.texto-en-imagen-medio {
+  font-family: "Bebas";
+  font-size: 35px;
+}
+
+.texto-en-imagen-superior {
+  font-family: "Anton";
+  font-size: 35px;
+}
+
+.texto-adicional {
+  font-family: "Permanent";
+  font-size: 35px;
+
+}
+
+.image-logo-arriba img {
+  width: 450px;
+  height: 450px;
+}
+
+.buttons-section {
+  padding-left: 5%;
+
+  .learn-more {
+    width: 220px;
+  }
+
+  .read-more {
+    width: 220px;
+  }
+}
+
+.texto-en-imagen-inferior {
+  font-family: "Fascinate";
+}
+
+
+.titulo-colores {
+  //    /* standard gradient background */
+  // background: linear-gradient(red, yellow);
+
+  // /* clip informático */
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+
+  background: -webkit-linear-gradient(left top, yellow, red);
+  background: linear-gradient(to bottom right, yellow, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 40px;
+}
+
+.imaginar-text {
+  background: -webkit-linear-gradient(left top, rgb(242, 156, 222), rgb(221, 255, 0));
+  background: linear-gradient(to bottom right, rgb(242, 156, 222), rgb(255, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.programar-text {
+  background: -webkit-linear-gradient(left top, rgb(0, 255, 98), rgb(99, 137, 242));
+  background: linear-gradient(to bottom right, rgb(0, 255, 98), rgb(99, 137, 242));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@media screen and (min-width: 576px) {
+  .texto-en-imagen-inferior {
+    font-size: 32px;
+  }
+
+  .texto-en-imagen-superior {
+    font-size: 25px;
+  }
+
+  .texto-en-imagen-medio {
+    font-family: "Bebas";
+    font-size: 25px;
+  }
+
+  .buttons-section {
+    padding-left: 8%;
+
+    .read-more {
+      width: 140px;
+    }
+
+    .learn-more {
+      width: 140px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .texto-en-imagen-inferior {
+    font-size: 32px;
+  }
+
+  .texto-en-imagen-superior {
+    font-size: 25px;
+  }
+
+  .texto-en-imagen-medio {
+    font-family: "Bebas";
+    font-size: 25px;
+  }
+
+  .buttons-section {
+    padding-left: 8%;
+
+    .read-more {
+      width: 140px;
+    }
+
+    .learn-more {
+      width: 140px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .texto-en-imagen-inferior {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .texto-en-imagen-inferior {
+    font-size: 60px;
+  }
+
+  .text-all-container {
+    top: 85px;
+    padding-left: 150px !important;
+    position: relative;
+    color: aliceblue;
+  }
+
+
+  .texto-en-imagen-medio {
+    font-family: "Bebas";
+    font-size: 45px;
+  }
+
+  .texto-en-imagen-superior {
+    font-family: "Anton";
+    font-size: 45px;
+  }
+
+  .texto-adicional {
+    font-family: "Permanent";
+    font-size: 35px;
+
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 576px) {
+  .texto-en-imagen-inferior {
+    font-size: 22px;
+  }
+
+  .texto-en-imagen-superior {
+    font-size: 21px;
+  }
+
+  .texto-en-imagen-medio {
+    font-family: "Bebas";
+    font-size: 21px;
+  }
+
+  .buttons-section {
+    padding-left: 8%;
+
+    .read-more {
+      width: 90px;
+    }
+
+    .learn-more {
+      width: 90px;
+    }
+  }
+}
