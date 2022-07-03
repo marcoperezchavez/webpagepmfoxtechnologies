@@ -9,11 +9,20 @@ import './assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf';
 import './assets/fonts/Fascinate_Inline/FascinateInline-Regular.ttf';
 import './assets/fonts/Permanent_Marker/PermanentMarker-Regular.ttf';
 
+import firebase from '../src/utils/firebaseConfiguration.js';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+//const test = firebase.apps[0];
+
 root.render(
   
   <React.StrictMode>
     <App />
+    {/* <>
+    <code>
+      <pre>{JSON.stringify(test.options,null,2)}</pre>
+    </code>
+    </> */}
   </React.StrictMode>
 );
 
