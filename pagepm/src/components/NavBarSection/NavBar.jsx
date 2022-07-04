@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import PMFOXTECHNOLOGIESLOGO  from '../../Images/PMFOXTECHNOLOGIESLOGO.png'
 import './navBar.scss';
-import React, { Component }  from 'react';
+import React from 'react';
 
 
 const MyNavBar = () => {

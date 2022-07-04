@@ -131,21 +131,47 @@
   }
 
   .buttons-section {
-    padding-left: 8%;
+    padding-left: 10%;
 
     .read-more {
-      width: 140px;
+      width: 120px;
     }
 
     .learn-more {
-      width: 140px;
+      width: 120px;
     }
   }
+
 }
 
 @media screen and (min-width: 992px) {
   .texto-en-imagen-inferior {
     font-size: 40px;
+  }
+
+  .texto-en-imagen-superior {
+    font-size: 25px;
+  }
+
+  .texto-en-imagen-medio {
+    font-family: "Bebas";
+    font-size: 25px;
+  }
+
+  .buttons-section {
+    padding-left: 6%;
+
+    .read-more {
+      width: 160px;
+    }
+
+    .learn-more {
+      width: 160px;
+    }
+  }
+
+  .titulo-colores {
+    padding-left: 0px;
   }
 }
 
@@ -186,23 +212,34 @@
   }
 
   .texto-en-imagen-superior {
-    font-size: 21px;
+    font-size: 15px;
   }
 
   .texto-en-imagen-medio {
     font-family: "Bebas";
-    font-size: 21px;
+    font-size: 15px;
   }
 
   .buttons-section {
     padding-left: 8%;
 
+
     .read-more {
       width: 90px;
+      font-size: 12px;
     }
 
     .learn-more {
       width: 90px;
+      font-size: 12px;
     }
+  }
+
+  .titulo-colores {
+    padding-left: 0px;
+  }
+
+  .image-logo {
+    height: 300px;
   }
 }
