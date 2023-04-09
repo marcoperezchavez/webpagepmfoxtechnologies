@@ -1,24 +1,33 @@
 .container-all {
   position: absolute;
-  top: 90px;
-
+  bottom: 0;             
+  right: 1rem;
+  padding-bottom: 1%;
 }
 
 .text-all-container {
-  top: 85px;
-  padding-left: 50px !important;
   position: relative;
   color: aliceblue;
+  text-align: center;
 }
+
+.texto-en-imagen-superior {
+  border: 3px solid red;
+  margin: 0px 5% 10px;
+  background-color: black;
+  border-radius: 25px;
+  }
 
 .logo-container {
   /* position: relative; */
   /* text-align: center; */
+  position: relative;    
+  display: inline-block;
 }
 
 .image-logo {
   width: 100%;
-  height: 400px;
+  height: auto;
 }
 
 .texto-en-imagen-medio {
@@ -43,7 +52,6 @@
 }
 
 .buttons-section {
-  padding-left: 5%;
 
   .learn-more {
     width: 220px;
@@ -56,6 +64,7 @@
 
 .texto-en-imagen-inferior {
   font-family: "Fascinate";
+  
 }
 
 
@@ -104,7 +113,6 @@
   }
 
   .buttons-section {
-    padding-left: 8%;
 
     .read-more {
       width: 140px;
@@ -131,7 +139,6 @@
   }
 
   .buttons-section {
-    padding-left: 10%;
 
     .read-more {
       width: 120px;
@@ -159,7 +166,6 @@
   }
 
   .buttons-section {
-    padding-left: 6%;
 
     .read-more {
       width: 160px;
@@ -176,15 +182,19 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .container-all {
+    //top: 500px;
+    width: 100%;
+  }
   .texto-en-imagen-inferior {
     font-size: 60px;
+    
   }
 
   .text-all-container {
-    top: 85px;
-    padding-left: 150px !important;
     position: relative;
     color: aliceblue;
+    text-align: center;
   }
 
 
@@ -221,7 +231,6 @@
   }
 
   .buttons-section {
-    padding-left: 8%;
 
 
     .read-more {
@@ -240,6 +249,6 @@
   }
 
   .image-logo {
-    height: 300px;
+    // height: 300px;
   }
 }
